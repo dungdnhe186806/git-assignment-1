@@ -11,5 +11,10 @@ namespace Assignment1
         {
             MessageBox.Show("xin chào");
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("tạm biệt");
+        }
     }
 }
