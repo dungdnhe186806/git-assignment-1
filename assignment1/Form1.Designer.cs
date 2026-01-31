@@ -41,7 +41,16 @@
             btnHello.Text = "Xin chào";
             btnHello.UseVisualStyleBackColor = true;
             btnHello.Click += btnHello_Click;
-            
+            // 
+            // btnBye
+            // 
+            btnBye.Location = new Point(350, 346);
+            btnBye.Name = "btnBye";
+            btnBye.Size = new Size(94, 29);
+            btnBye.TabIndex = 1;
+            btnBye.Text = "Tạm biệt";
+            btnBye.UseVisualStyleBackColor = true;
+            btnBye.Click += btnBye_Click;
             // 
             // Form1
             // 
@@ -58,5 +67,6 @@
         #endregion
 
         private Button btnHello;
+        private Button btnBye;
     }
 }

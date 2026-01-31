@@ -19,7 +19,10 @@ namespace Ass1
         {
 
         }
-        
+        private void btnBye_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Tạm biệt");
+        }
 
     }
 }
