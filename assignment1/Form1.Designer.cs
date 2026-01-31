@@ -28,11 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-           
+            btnHello = new Button();
+            btnBye = new Button();
+            SuspendLayout();
+            // 
+            // btnHello
+            // 
+            btnHello.Location = new Point(350, 57);
+            btnHello.Name = "btnHello";
+            btnHello.Size = new Size(94, 29);
+            btnHello.TabIndex = 0;
+            btnHello.Text = "Xin chào";
+            btnHello.UseVisualStyleBackColor = true;
+            btnHello.Click += btnHello_Click;
+            
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(btnBye);
+            Controls.Add(btnHello);
+            Name = "Form1";
+            Text = "Form1";
+            ResumeLayout(false);
         }
 
         #endregion
 
-        
+        private Button btnHello;
     }
 }
